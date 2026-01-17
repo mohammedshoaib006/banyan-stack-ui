@@ -6,9 +6,7 @@ import { MatInputModule } from '@angular/material/input';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,MatButtonModule,
-    MatFormFieldModule,
-    MatInputModule],
+  imports: [RouterOutlet],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
